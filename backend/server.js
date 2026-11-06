@@ -9,7 +9,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://grocery-inventory-management-system-one.vercel.app"
+    "https://inventory-eta-nine-70.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true
